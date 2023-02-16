@@ -25,6 +25,5 @@ class Main {
         table[a][b] = a * b;
       }
     }
-
   }
 }
