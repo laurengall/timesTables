@@ -12,9 +12,9 @@ class Main {
     int[][] table = new int[rows][cols];
     makeTable(rows, cols, table);
     for (int k = 1; k < table.length; k++) {
-      System.out.println();
+      System.out.println("");
       for (int j = 1; j < table[k].length; j++) {
-        System.out.print(table[k][j] + " ");
+        System.out.print("| " + table[k][j] + " |");
       }
     }
   }
