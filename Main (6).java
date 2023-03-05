@@ -1,7 +1,5 @@
-
 // import Scanner
 import java.util.Scanner;
-
 class Main {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
@@ -18,7 +16,6 @@ class Main {
       }
     }
   }
-
   public static void makeTable(int rows, int cols, int[][] table) {
     for (int a = 1; a < rows; a++) {
       for (int b = 1; b < cols; b++) {
